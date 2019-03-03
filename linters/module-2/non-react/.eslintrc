@@ -8,19 +8,19 @@
   "extends": "eslint:recommended",
   "parserOptions": { "sourceType": "module" },
   "rules": {
-    "eqeqeq": ["error", "always"],
-    "brace-style": "error",
-    "comma-spacing": ["warn", { "before": false, "after": true }],
-    "curly": "error",
-    "semi-spacing": ["error", { "before": false, "after": true }],
-    "indent": ["warn", 2],
-    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
-    "keyword-spacing": ["error", { "before": true, "after": true }],
-    "linebreak-style": ["error", "unix"],
-    "max-len": ["warn", 80],
-    "new-cap": ["error", { "newIsCap": true }],
-    "object-shorthand": ["error", "always"],
-    "space-before-blocks": ["error", { "functions": "always", "keywords": "always", "classes": "always" }],
-    "space-infix-ops": ["error", { "int32Hint": false }]
+    "eqeqeq": ["error", "always"],      ***********eqeqeq: Require === and !== 
+    "brace-style": "error",         **************brace-style: enforce consistent brace style for blocks
+    "comma-spacing": ["warn", { "before": false, "after": true }],     **** comma-spacing: enforce consistent spacing before and after commas  
+    "curly": "error",     *********curly: enforce consistent brace style for all control statements
+    "semi-spacing": ["error", { "before": false, "after": true }],      *********semi-spacing: enforce consistent spacing before and after semicolons
+    "indent": ["warn", 2],      **********indent: enforce consistent indentation
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],       ******key-spacing: enforce consistent spacing between keys and values in object literal properties  
+    "keyword-spacing": ["error", { "before": true, "after": true }],      *************keyword spacing: enforce consistent spacing before and after keywords
+    "linebreak-style": ["error", "unix"],     *********linebreak-style: enforce consistent linebreak style
+    "max-len": ["warn", 80],      *********max-len: enforce a maximum line length
+    "new-cap": ["error", { "newIsCap": true }],   *****************new-cap: require constructor names to begin with a capital letter
+    "object-shorthand": ["error", "always"],      ************object-shorthand:  require or disallow method and property shorthand syntax for object literals
+    "space-before-blocks": ["error", { "functions": "always", "keywords": "always", "classes": "always" }],   ********space-before-blocks: enforce consistent spacing before blocks
+    "space-infix-ops": ["error", { "int32Hint": false }]      *********space-infix-ops: require spacing around infix operators
   }
 }
